@@ -1,0 +1,26 @@
+{
+    "files": [
+        "main.ts",
+        "traverse.d.ts",
+        "types.d.ts",
+    ],
+    "compilerOptions": {
+        "target": "esnext",
+        "module": "esnext",
+        "lib": [
+            "esnext"
+        ],
+        "declaration": true,
+        "declarationMap": true,
+        "emitDeclarationOnly": true,
+        "declarationDir": "./dts",
+        "moduleResolution": "node",
+        "esModuleInterop": true,
+        "isolatedModules": true,
+        "skipLibCheck": false,
+        "resolveJsonModule": true,
+        "noImplicitThis": true,
+        "noImplicitAny": true,
+        "strictBindCallApply": true,
+    }
+}
